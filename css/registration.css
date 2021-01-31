@@ -1,0 +1,129 @@
+.form-wrap {
+    max-width: 1140px;
+    min-height: 675px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.reg-form {
+    width: 360px;
+    min-height: 515px;
+    margin-top: 64px;
+}
+
+.reg-txt {
+    width: 652px;
+    height: 334px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+
+}
+
+form {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+}
+
+legend, input {
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 360px;
+    height: 45px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    padding-left: 17px;
+    border: 1px solid #A4A4A4;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 1px solid var(--pink);
+}
+
+input[type="text"] {
+    text-transform: capitalize;
+}
+
+input[type="radio"] {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    margin-left: 10px;
+    position: relative;
+}
+
+legend {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+input[type="submit"] {
+    width: 167px;
+    height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: var(--pink);
+    border: none;
+    margin-top: 39px;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: var(--pink);
+    border: 1px solid var(--pink);
+    text-transform: uppercase;
+}
+
+.form-txt {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.reg-txt-list {
+    list-style-type: none;
+    list-style-image: url(../img/list-img.svg);
+}
+
+.reg-txt > ul > li {
+    padding-left: 15px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.reg-txt > span {
+    margin-bottom: 22px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}

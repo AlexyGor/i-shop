@@ -1,0 +1,128 @@
+.breadcrumb {
+    margin: 0 auto;
+    background-color: #F8F3F4;
+    width: 100%;
+    max-width: 1600px;
+    height: 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-lef, .nav-right {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.nav-lef {
+    margin-left: 230px;
+    color: var(--pink);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.nav-right {
+    margin-right: 230px;
+}
+
+.nav-right-list {
+    display:flex;
+    flex-direction: row;
+    white-space: nowrap;
+    list-style:none;
+}
+
+.nav-right > ul > li:nth-child(3) {
+    color: var(--pink);
+}
+
+.filter-wrp {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 51px;
+}
+
+.filter {
+    /*width: 70px;*/
+    min-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 230px;
+}
+
+.sort {
+    /*width: 297px;*/
+    min-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-right: 684px;
+}
+
+#filter1 {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    position: relative;
+    outline: none;
+}
+
+.filter:after {
+    /*background-image: url(../img/filter.svg);*/
+
+}
+
+#trend1, #SIZE1, #PRICE1 {
+    -moz-appearance: none;
+    /*-webkit-appearance: none;*/
+    border: none;
+    position: relative;
+    outline: none;
+}
+
+.prod {
+    display: flex;
+    margin-top: 64px;
+    flex-direction: column;
+}
+
+.prod-item-top, .prod-item-middle, .prod-item-bottom {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.prod-item-middle {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pagination {
+    margin-top: 48px;
+    margin-bottom: 96px;
+}
+
+
+
