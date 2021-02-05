@@ -53,7 +53,6 @@
 }
 
 .filter {
-    /*width: 70px;*/
     min-height: 17px;
     display: flex;
     align-items: center;
@@ -67,7 +66,6 @@
 }
 
 .sort {
-    /*width: 297px;*/
     min-height: 17px;
     display: flex;
     align-items: center;
@@ -89,14 +87,8 @@
     outline: none;
 }
 
-.filter:after {
-    /*background-image: url(../img/filter.svg);*/
-
-}
-
 #trend1, #SIZE1, #PRICE1 {
     -moz-appearance: none;
-    /*-webkit-appearance: none;*/
     border: none;
     position: relative;
     outline: none;
@@ -120,9 +112,28 @@
 }
 
 .pagination {
+    margin: 0 auto;
+    width: 284px;
+    height: 44px;
     margin-top: 48px;
     margin-bottom: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EBEBEB;
 }
 
+.pagination a {
+    color: #5D5D5D;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 10px;
+
+}
+
+.pagination a:hover {
+    color: var(--pink);
+}
 
 
