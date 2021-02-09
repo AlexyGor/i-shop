@@ -47,16 +47,12 @@ a {
     text-decoration: none;
 }
 
-.search {
+.page-header-search-form {
     margin-left: 30px;
 }
 
-.user, .truck-empty {
+.account-btn, .cart-btn {
     margin-left: 33px;
-}
-
-.block-link {
-    display: block;
 }
 
 .menu-left {
@@ -67,9 +63,10 @@ a {
 }
 
 .menu-right {
+    position: relative;
     justify-content: flex-end;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     padding-right: 231px;
 }
 
@@ -356,7 +353,6 @@ a {
 
 .products-item-btn {
     display: none;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     width: 38.3%;
@@ -389,6 +385,7 @@ a {
     margin-left: 465px;
     background-color: white;
     color: var(--pink);
+    outline: none;
 }
 
 .social-link:hover {
@@ -534,7 +531,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .copiright > span {
@@ -547,18 +543,13 @@ footer {
 
 .footer-soc-link {
     display: flex;
-    /*flex-direction: row;*/
     justify-content: space-around;
     align-items: center;
     width: 148px;
     height: 32px;
-    /*position: relative;*/
 }
 
 .fab {
-    /*flex-direction: row;
-    align-items: center;
-    justify-content: center;*/
     width: 32px;
     height: 32px;
     color: #000000;
