@@ -11,6 +11,7 @@ body {
 header {
     background: #222222;
     width: 100%;
+    max-width: 1600px;
     min-height: 75px;
     display: flex;
 }
@@ -19,7 +20,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1600px;
+    width: 100%;
+    max-width: 1600px;
 }
 
 .container {
@@ -52,7 +54,7 @@ a {
     display: flex;
     align-items: baseline;
     justify-content: flex-start;
-    padding-left: 231px;
+    margin-left: 231px;
 }
 
 .menu-right {
@@ -60,7 +62,7 @@ a {
     justify-content: flex-end;
     display: flex;
     align-items: center;
-    padding-right: 231px;
+    margin-right: 231px;
 }
 
 .promo {
@@ -125,7 +127,8 @@ a {
 
 .offer-item {
     display: flex;
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
     min-height: 260px;
     background-repeat: no-repeat;
     justify-content: center;
@@ -266,7 +269,8 @@ a {
 
 .item-top, .item-middle, .item-bottom {
     min-height: 581px;
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
 }
 
 .txt {
@@ -275,7 +279,8 @@ a {
 }
 
 .products-item {
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
     margin: 0;
     position: relative;
     background: #F8F8F8;
@@ -371,7 +376,8 @@ a {
     justify-content: center;
     align-items: center;
     border: 1px solid var(--pink);
-    width: 212px;
+    width: 100%;
+    max-width: 212px;
     height: 48px;
     background-color: white;
     color: var(--pink);
@@ -396,7 +402,8 @@ a {
 }
 
 .feature-txt {
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
     min-height: 74px;
     display: flex;
     flex-direction: column;
@@ -421,7 +428,8 @@ a {
 }
 
 .feature-item {
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
     min-height: 134px;
     display: flex;
     flex-direction: column;
@@ -439,7 +447,8 @@ a {
 }
 
 .subscribe-info {
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
     min-height: 225px;
     display: flex;
     flex-direction: column;
@@ -448,7 +457,8 @@ a {
 }
 
 .subscribe-info-txt {
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
     min-height: 99px;
     font-style: normal;
     font-weight: normal;
@@ -464,7 +474,8 @@ a {
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    width: 557px;
+    width: 100%;
+    max-width: 557px;
     min-height: 142px;
     margin-right: 230px;
 }
@@ -496,7 +507,8 @@ a {
 }
 
 .btn-sub {
-    width: 356px;
+    width: 100%;
+    max-width: 356px;
     height: 49px;
     display: flex;
 }
@@ -561,5 +573,27 @@ footer {
     transition: 1s linear;
 }
 
+/****@media768px***tablet****/
+@media (max-width: 768px) {
+    .menu-right {
+        margin-right: 32px;
+    }
+    .menu-left {
+        margin-left: 32px;
+    }
+.container {
+    width: 768px;
+}
+.cont {
+    width: 736px;
+}
+.promo {
+    height: 367px;
+}
+.promo-img {
+    width: 386px;
+    height: 368px;
+}
 
+}
 
