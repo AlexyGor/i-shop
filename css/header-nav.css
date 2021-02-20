@@ -119,7 +119,7 @@
 .menu-list {
     display: none;
     width: 232px;
-    min-height: 764px;
+    min-height: 767px;
     /* значение в свойстве min-height удобно задать через переменную равную высоте второго блока */
     padding: 16px 33px;
     box-sizing: border-box;
