@@ -136,4 +136,42 @@
     color: var(--pink);
 }
 
+@media (max-width: 768px) {
+    .breadcrumb {
+        max-width: 768px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        justify-content: space-between;
+
+    }
+    .nav-lef {
+        margin-left: 16px;
+    }
+
+    .nav-right {
+        margin-right: 16px;
+    }
+    .filter-wrp {
+        max-width: 736px;
+        margin-top: 24px;
+    }
+    .filter {
+        margin-left: 16px;
+    }
+    .sort {
+        margin-right: 16px;
+    }
+    .prod {
+        margin-top: 40px;
+    }
+
+
+
+
+
+
+}
+
 
